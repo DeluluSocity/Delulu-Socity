@@ -2,4 +2,9 @@
   publish = "."
 
 [functions]
-  directory = "netlify/functions"
+  directory = "."
+
+[[redirects]]
+  from = "/"
+  to = "/Index%20hub.html"
+  status = 200
